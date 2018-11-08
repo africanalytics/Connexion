@@ -164,6 +164,19 @@ a:hover {
 	content: "\e004";
 }
 
+.icon-play3:before {
+    content: "\2630";
+}
+
+.icon-kaggle:before {
+    content: "\2630";
+    color: #20beff;
+}
+
+.icon-menu::before {
+    content: "\e60b";
+}
+
 @media screen and (max-width: 55em) {
 
 	.container > header h1,

@@ -8,7 +8,8 @@
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/font-awesome.min.css" />
-
+        <link rel="stylesheet" href="~/css/component.css" />
+        <link rel="stylesheet" href="~/css/default.css" />
 
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
@@ -20,6 +21,55 @@
     </environment>
 </head>
 <body>
+
+
+
+    <div class="container">
+        <header class="clearfix">
+            <span>Africa data <span class="bp-icon bp-icon-about" data-content="La description de qui sera fait"></span></span>
+            <h1>Ici le slogan</h1>
+            <nav>
+
+        
+                    <div id="custom-search-input">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-lg" placeholder="Search" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-info btn-lg" type="button">
+                                    <i class="fa fa-search fa-2"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+
+ 
+
+
+            </nav>
+        </header>
+
+    </div>
+
+    <div class="main">
+        <nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
+            <div class="cbp-hsinner">
+                <ul class="cbp-hsmenu">
+                    <li>
+                        <a href="#">Data & Research</a>
+                    </li>
+                    <li>
+                        <a href="#">Register to save your search</a>
+                    </li>
+                    <li>
+                        <a href="#">Companies to inspire Africa 2018</a>
+                    </li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -53,6 +103,10 @@
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/cbpHorizontalSlideOutMenu.js" asp-append-version="true"></script>
+        <script src="~/js/modernizr.custom.js" asp-append-version="true"></script>
+
+
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <environment exclude="Development">
